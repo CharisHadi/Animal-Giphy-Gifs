@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Favorite animals</title>
+  <title>Favorite Animals</title>
   <style type="text/css">
     button,
     div,
@@ -17,40 +17,22 @@
 <body>
 
   <div class="container">
-    <h1>animal Search</h1>
+    <h1>Animal Gifs!</h1>
 
     <!-- animals will get dumped here -->
     <div id="buttons-view"></div>
 
     <form id="animal-form">
-      <label for="animal-input">Add a animal, Yo!</label>
+      <label for="animal-input">Put Your Favorite Animal!</label>
       <input type="text" id="animal-input"><br>
 
       <!-- Button triggers new animal to be added -->
-      <input id="add-animal" type="submit" value="Add a animal, Yo!">
+      <input id="add-animal" type="submit" value="ANIMAL GIFS!!!">
     </form>
+
+    <div id= "gifs-appear-here"></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript">
-      // Initial array of animals
-      var animals = [];
-
-      // Function for displaying animal data
-      function renderButtons() {
-
-        // YOUR CODE GOES HERE
-
-      }
-
-      // This function handles events where one button is clicked
-      $("#add-animal").on("click", function() {
-
-        // YOUR CODE GOES HERE
-
-      });
-
-      // Calling the renderButtons function to display the initial list of animals
-      renderButtons();
-    </script>
+    <script src="app.js"></script>
   </div>
 </body>
 
